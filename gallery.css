@@ -1,0 +1,236 @@
+body{
+	background-image: url("gallery_bg.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.menuframe {
+	float: right;
+	list-style-type: none;
+	padding: 10px 10px;
+	max-height: 40px;
+	overflow: hidden;
+	width: 100%;
+	background-color: rgba(0,0,0,0.00);
+	margin: 16px 24px 32px 24px;
+}
+
+.menu {
+  float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+	background-color: rgba(0,0,0,0.00);
+	/*font-size: 18px;
+	transition: .3s;*/
+}
+
+.active {
+	border-radius: 25px;
+	border: solid #FDFCFC;
+	border-width: 1.5px;
+	
+	
+}
+
+.rightsection{
+	text-align: center;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.textlol{
+	display: inline-block;
+}
+
+#heading{
+	font-family: 'Yesteryear', cursive;
+	font-size: 96px;
+	color: white;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	float: left;
+	border-top: 1px solid #707070;
+	margin-left: -15%;
+	margin-right: 30%;
+	margin-top: -8px;
+	width: 95%;
+}
+
+#caption{
+	color: white;
+	text-align: right;
+	margin-right: -10%;
+	font-family: 'Bad Script', cursive;
+	font-size: 16px;
+}
+
+.albumframe {
+	display: inline-block;
+	list-style-type: none;
+	height:160px;
+	width: 900px;
+	padding-left: 0px;
+	margin: 20px 0px 20px 0px;
+	overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.albumframe li{
+	display: inline-block;
+}
+
+.albumbox{
+	float: left;
+	margin: 10px 10px 10px 10px;
+	width: 220px;
+	height: 120px;
+	background-color: #404040;
+	background-size: cover;
+	filter: grayscale(100%) brightness(50%);
+}
+
+.albumbox:hover{
+	filter: grayscale(0%);
+}
+
+.activeThumb{
+	outline: solid white;
+	outline-width: 3.5px;
+	filter: grayscale(0%);
+}
+
+#frame{
+	text-align: center;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 16px;
+}
+
+#mainframe{
+	display: inline-block;
+	width: 900px;
+	height: 500px;
+	background-color: #1C1C1C;
+	background-size: cover;
+}
+
+#mainframe:hover .imageNav{
+	display: block;
+}
+
+.imageNav{
+	width: 48px;
+	color: rgba(255,255,255,0.50);
+	font-size: 36px;
+	text-align: center;
+	margin-top: 196px;
+}
+
+.imageNav:hover{
+	color: rgba(255,255,255,0.90);
+}
+
+.leftarrow{
+	float: left;
+	margin-left: 12px;
+}
+
+.rightarrow{
+	float: right;
+	margin-right: 12px;
+}
+
+.thumbframe {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 0px;
+	width: 900px;
+	overflow-x: scroll;
+  	white-space: nowrap;
+	background-color:rgba(19,19,19,1.00);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.thumbframe li{
+	display: inline-block;
+}
+.navicon{
+	float: left;
+	margin: 0px 10px 0px 10px;
+	width: 20px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+.thumbbox{
+	float: left;
+	margin: 16px 10px 10px 10px;
+	width: 96px;
+	height: 72px;
+	background-color: black;
+	background-size: cover;
+}
+
+/*Custom ScrollBar*/
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0,0,0,0.00);
+}
+ 
+::-webkit-scrollbar-thumb {
+	background: #202020;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #505050; 
+}
+
+::-webkit-scrollbar-corner{
+	background: rgba(0,0,0,0.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
