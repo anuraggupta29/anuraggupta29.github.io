@@ -6,4 +6,4 @@ READ ME----------------------------------
 3. you can add your own albums in the album folder
 4. its images should be named as 1.jpeg,2.jpeg till as many images exist
 5. in the gallery.js folder there are 3 maps, where u have to mention the path(not the actual path--u will get it)(!!important)
-6. and the Albumname(not necessary as i have not completed that part yet) and number of images(important)
+6. and the Albumname and number of images(important)
