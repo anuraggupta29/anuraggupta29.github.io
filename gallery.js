@@ -30,7 +30,7 @@ fileex = '.jpeg")';
 
 // ADD REQUIRED NO OF ALBUM THUMB DIV
 
-var htmlcontent = '<li><div class="albumbox"></div></li>';
+var htmlcontent = '<li><div class="albumbox"><p></p></div></li>';
 for (var j = 1; j < Album_path.size ; j++){
 	document.querySelector('.albumframe').insertAdjacentHTML('beforeend',htmlcontent);
 }
@@ -161,6 +161,7 @@ document.querySelector('.rightarrow').addEventListener('click',function(){
 
 albums.forEach(function(current,index){
 		current.style.backgroundImage = Album_path.get(Album_path.size-(index+1))+'1'+fileex;
+		current.firstChild.textContent = Album_name.get(Album_path.size-(index+1));
 	});
 
 

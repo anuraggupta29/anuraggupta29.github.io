@@ -97,6 +97,16 @@ hr{
   white-space: nowrap;
 }
 
+.albumbox p{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	padding: 0px 10px 0px 10px;
+	font-family: 'Bungee', cursive;
+	font-size: 20px;
+	text-shadow: 0 0 10px black;
+}
+
 .albumframe li{
 	display: inline-block;
 }
@@ -106,6 +116,7 @@ hr{
 	margin: 10px 10px 10px 10px;
 	width: 220px;
 	height: 120px;
+	display: table;
 	background-color: #404040;
 	background-size: cover;
 	filter: grayscale(100%) brightness(50%);
